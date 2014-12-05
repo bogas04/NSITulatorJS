@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>NSITulatorJS v1</title>
+<!-- SAVE THESE ON YOUR FTP -->
+<link href="NC.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="NC.js"></script>
+</head>
+<body>
+<!-- COPY FROM HERE -->
+<div id="NSITulatorWrapper" onclick="grow();">
+<div id="nCalcBody">
+<span id="NCheading">NSITulator</span>
+<span id="eB"></span>
+	<div id="stdDetails">
+		<select id="Sem" class="DD">
+		<option id="choose">Semester</option>
+		<option id="1" class="DDI">1</option>
+		<option id="2" class="DDI">2</option>
+		<option id="3" class="DDI">3</option>
+		<option id="4" class="DDI">4</option>
+		<option id="5" class="DDI">5</option>
+		<option id="6" class="DDI">6</option>
+		<option id="7" class="DDI">7</option>
+		<option id="8" class="DDI">8</option>
+		</select>
+		<select id="Branch" class="DD">
+		<option id="choose" class="DDI">Branch</option>
+		<option id="COE" class="DDI">COE</option>
+		<option id="IT" class="DDI">IT</option>
+		<option id="ECE" class="DDI">ECE</option>
+		<option id="ICE" class="DDI">ICE</option>
+		<option id="BT" class="DDI">BT</option>
+		<option id="MPAE" class="DDI">MPAE</option>
+		</select>
+		<br>
+	<button id="stdDetailsBtn" class="Btn" onclick="check(document.getElementById('Sem').value,document.getElementById('Branch').value)">Submit</button>
+	</div>
+	
+	<div id="markSheet">
+	</div>
+	<div id="crdts"><b>&copy; <a href="http://fb.com/divjot94">Divjot Singh</a> and <a href="https://www.facebook.com/pulkit.aggarwal.9?fref=ts">Pulkit Aggarwal</a></b></div>
+</div>
+</div>
+<!-- TILL HERE -->
+</body>
+</html>

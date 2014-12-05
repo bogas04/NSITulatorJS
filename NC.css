@@ -1,0 +1,94 @@
+#NSITulatorWrapper{
+	border:2px solid #009999;
+	position:relative;
+	border-radius:50px;
+	box-shadow:0 5px 5px grey;
+	width:290px;
+	height:90px;
+	overflow: hidden;
+	background:url('http://v2.collegespace.in/wp-content/plugins/widgetkit/cache/gallery/538/Inside%20Campus-041fd19b77.jpg');
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#NSITulatorWrapper:hover{
+	border-radius:0px;
+	width:370px;
+	height:395px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	
+}
+#eB{
+	display:none;
+	position:absolute;
+	margin:20px;
+	left:90px;
+	font-size:110%;
+}
+#nCalcBody{
+	padding:10px;
+	text-align:center;
+		
+}
+#NCheading{
+	font-size:250%;
+	font-family:Georgia, serif;
+	text-shadow:1px 1px 10px grey;
+	z-index:99;	
+}
+#stdDetails{
+	margin-top:40px;
+}
+.DD{
+	margin:10px;
+	border:2px solid #99D6D6;
+	font-size:105%;
+}
+.DDI{
+	width:80px;
+}
+#markSheet{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+#msb tr td{
+	color:white;
+	text-shadow:1px 1px 5px black;
+	font-size:120%;
+}
+#msB tr td input{
+	margin-left:2px;
+	width:30px;
+}
+#msB tr td label{
+	margin-right:18px;
+	font-size:125%;
+	text-decoration:bold;
+	text-shadow:2px 2px 2px black;
+}
+.fields{
+	margin-left:25px;
+}
+.Btn{
+	margin:5px;
+	border:2px solid #99D6D6;
+	font-size:125%;
+	background-color:#E6E6E6;
+}
+
+#crdts{
+	color:black;
+	position:absolute;
+	bottom:4px;
+	left:25px;
+}
+#crdts a{
+	color:#009999;
+	text-decoration:none;
+}
